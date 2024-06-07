@@ -18,7 +18,7 @@ jobs:
     - name: Build Docker image
       uses: docker/build-push-action@v1
       with:
-        repository: matthewfeickert/docker-python3-ubuntu
+        repository: alexkrutprog/docker-python3-ubuntu
         dockerfile: Dockerfile
         tags: test
         tag_with_sha: true
